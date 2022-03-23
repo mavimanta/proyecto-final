@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- mi css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Maschino moda</title>
+  </head>
+<body> 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- empieza nav -->
+<div class="w-100 col-sm-1 col-md-1 col-lg-1">
+  <nav class=" row navbar navbar-expand-lg mt-3 w-100" id="botonera">
+    <div class="container-fluid flex-column mb-3">
+      <!-- empieza logo -->
+      <div id="logo">
+        <a class="navbar-brand mb-3" href="index.html"><img src="img/logo.jpg" alt="logo">
+        </a>
+      </div>
+      <!-- cierra logo -->
+  <!-- boton hamburguesa -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <!-- cirra boton hamburguesa -->
+      <div class="collapse navbar-collapse botonera mt-3 p-3 text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="comprar.html">Comprar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="¿donde estamos?.html">¿Donde estamos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Envios y Métodos de pago.html">Envios y Métodos de pago</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="¿donde estamos?.html">¿donde estamos?</a>
+          </li>
+  <!-- empieza dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">productos   
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">remeras</a></li>
+              <li><a class="dropdown-item" href="#">pantalones</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">vestidos</a></li>
+            </ul>
+          </li>
+        </ul>
+  <!-- cierra dropdown -->
+        <form class="d-flex">
+  <!-- empieza buscador -->
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit" id="button">Buscar</button>
+        </form>
+  <!-- cierra buscador -->
+      </div>
+  </nav>
+</div>
+  <!-- termina nav -->
+  <!-- empieza carrousel -->
+  <div id="carouselExampleDark" class="row conteiner-fluid carousel carousel-dark slide container text-center w-100" data-bs-ride="carousel">
+    <div class="carousel-inner w-100">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="img/buzos nike.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Buzo nike</h5>
+          <p>Varios colores y varios talles</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="img/remeras mujer.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Camisa red sox</h5>
+          <p>Varios colores y varios talles.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="img/shorts champion.jpg." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Short champion</h5>
+          <p>Varios colores y varios talles</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="img/shorts mujer.png." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Shorts</h5>
+          <p>Varios colores y varios talles.</p>
+      </div>
+    </div>
+  </div>
+  <!-- termina carrousel --> 
+  <!-- empieza productos -->
+    <div class="container-fluid row" id="productos">
+      <h1 class="text-center py-3">productos destacados</h1>
+        <!-- empieza box 1 -->
+        <article class="col-sm-12 col-md-3 col-lg-6 text-center">
+          <h2 class="text-center py-3">vestido brightness</h2>
+          <img src="img/vestido de fiesta.png" alt="vestido negro">
+          <div id="botones">
+          <a href="" class="btn btn-primary dark d-flex mx-auto">Comprar</a>
+          </div>
+        </article>
+        <!-- termina box 1 -->
+
+        <!-- empieza box 2 -->
+        <article class="col-sm-12 col-md-3 col-lg-6">
+          <h2 class="text-center py-3">remera good energy club</h2>
+          <img src="img/remera good energy club.png" alt="emera good energy club">
+          <a href="" class="btn btn-primary dark d-flex mx-auto">Comprar</a>
+        </article>
+        <!-- termina box 2 -->
+
+        <!-- empieza box 3-->
+        <article class="col-sm-12 col-md-3 col-lg-6">
+          <h2 class="text-center py-3">Remera champion</h2>
+          <img src="img/remera champion.png" alt="remera champion">
+          <a href="" class="btn btn-primary dark d-flex mx-auto">Comprar</a>
+        </article>
+        <!-- termina box 3 -->
+
+        <!-- empieza box 4 -->
+        <article class="col-sm-12 col-md-3 col-lg-6">
+          <h2 class="text-center py-3">short addidas</h2>
+          <img src="img/short addidas.png" alt="short addidas">
+          <a href="" class="btn btn-primary dark mt-3 mx-auto">Comprar</a> 
+        </article>
+        <!-- termina box 4 -->
+    </div>
+  <!-- termina productos -->
+  <!-- empieza footer-->
+  
+  <!-- termina footer -->
+  </body>
+</html>
