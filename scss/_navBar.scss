@@ -1,0 +1,15 @@
+#navbarSupportedContent{
+	font-family:$fontMain;
+	background-color:$mainColor;
+	width: $w-100;
+	text-align: center;
+	ul li a{
+		color:$secondaryColor;
+		&:hover{
+					color:$keyColor;
+				}
+	}
+	.dropdown-item{
+		color:$mainColor;
+	}
+}
