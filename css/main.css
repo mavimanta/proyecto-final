@@ -22,7 +22,13 @@
     height: 500px; }
 
 .article img {
-  text-align: center; }
+  text-align: center;
+  height: h-500; }
+
+.btn, .btn-3 {
+  margin-top: 3px;
+  display: flex;
+  width: 25%; }
 
 #footer {
   color: white; }

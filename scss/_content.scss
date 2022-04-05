@@ -1,6 +1,6 @@
 #carouselExampleDark{
 	width:$w-100;
-	margin-right:$mr-10;
+	margin-right:$m-10;
 	img{
 		height:$h-500;
 	}
@@ -8,5 +8,17 @@
 .article{
 	img {
 		text-align: center;
+		height:h-500;
 	}
 }
+.btn{
+	margin-top:$m-3;
+	display: flex;
+	width:$w-25;
+}
+
+.btn-3{
+	@extend .btn;
+}
+
+
