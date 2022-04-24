@@ -1,16 +1,17 @@
 #footer{
 	color: $secondaryColor;
-	img{
-		background-color:$mainColor;
-	}
 }
+
 #footer-nav{
-	ul li{
-		list-style: none;
-	} 
-		a {
-		list-style: none;
-		text-decoration: none;
-		color: $secondaryColor;
-	}
+	font-family:$fontMain;
+	color:$secondaryColor;
+	width: $w-100;
+	text-align: center;
+	background-color:$mainColor;
+	ul li a{
+		color:$secondaryColor;
+		&:hover{
+			color:$keyColor;
+			}
+		}
 }

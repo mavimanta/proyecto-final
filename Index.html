@@ -1,179 +1,155 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-       <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-  <!-- mi css -->
   <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Maschino moda</title>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
+    <meta name="description" content="Ropa para hombre y para mujer">
+    <meta name="keywords" content="ropa para hombre ropa para mujer vestido pantalon remera buzo">
+  </head>
 <body>
 <!-- empieza nav -->
 <header>
-<div class="w-100 col-sm-12 col-md-1 col-lg-1">
-  <nav class="row navbar navbar-expand-lg mt-3 w-100">
-    <div class="container-fluid flex-column mb-3">
-      <!-- empieza logo -->
-      <div id="logo">
-        <a class="navbar-brand mb-3" href="index.html"><img src="img/logo.jpg" alt="logo">
-        </a>
-      </div>
-      <!-- cierra logo -->
-  <!-- boton hamburguesa -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  <!-- cirra boton hamburguesa -->
-      <div class="collapse navbar-collapse botonera mt-3 p-3 text-center" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto ml-0 ml-lg-0 mx-auto" id="nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="comprar.html">Comprar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="¿donde estamos?.html">¿Donde estamos?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Envios y Métodos de pago.html">Envios y Métodos de pago</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="¿donde estamos?.html">¿donde estamos?</a>
-          </li>
-  <!-- empieza dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">productos   
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown">
-              <li><a class="dropdown-item" href="#">remeras</a></li>
-              <li><a class="dropdown-item" href="#">pantalones</a></li>
-              <li><a class="dropdown-item" href="#">vestidos</a></li>
-            </ul>
-          </li>
-        </ul>
-  <!-- cierra dropdown -->
-        <form class="d-flex">
-  <!-- empieza buscador -->
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit" id="button">Buscar</button>
-        </form>
-  <!-- cierra buscador -->
-      </div>
-  </nav>
-</div>
-  <!-- termina nav -->
-</header>
-<main>
-  <!-- empieza carrousel -->
-  <div id="carouselExampleDark" class="row conteiner-fluid carousel carousel-dark slide container text-center w-100 d-flex justyfy-content-center w-100 col-sm-12 col-md-12 col-lg-12" data-bs-ride="carousel">
-    <div class="carousel-inner ">
-      <div class="carousel-item active col-sm-12 col-md-12 col-lg-12" data-bs-interval="1000">
-        <img src="img/buzos nike.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Buzo nike</h5>
-          <p>Varios colores y varios talles</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="img/remeras mujer.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Camisa red sox</h5>
-          <p>Varios colores y varios talles.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="img/shorts champion.jpg." class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Short champion</h5>
-          <p>Varios colores y varios talles</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="img/shorts mujer.png." class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Shorts</h5>
-          <p>Varios colores y varios talles.</p>
-      </div>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="100" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="comprar.html">COMPRAR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tienda online.html">TIENDA ONLINE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="donde estamos.html">DONDE ESTAMOS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="error 404.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PRODUCTOS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="error 404.html">REMERAS</a></li>
+            <li><a class="dropdown-item" href="error 404.html">PANTALONES</a></li>
+            <li><a class="dropdown-item" href="error 404.html">VESTIDOS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="envios y metodos de pago.html">ENVIOS Y METODOS DE PAGO</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+      </form>
     </div>
   </div>
-  <!-- termina carrousel --> 
-  <!-- empieza productos -->
-    <div class="container-fluid row" id="productos">
-      <h1 class="text-center py-3">productos destacados</h1>
-      
-        <!-- empieza box 1 -->
-        <article class="col-sm-12 col-md-3 col-lg-6 text-center">
-          <h2 class="text-center py-3">vestido brightness</h2>
-          <img src="img/vestido de fiesta.png" alt="vestido negro">
-          <div id="botones">
-          <a href="" class="btn btn-dark mt-3 mx-auto">Comprar</a> 
+</nav> 
+<!-- termina nav -->
+</header>
+
+<main class="mt-2">
+  <!-- empieza carrousel -->
+ <div class="container-fluid">
+   <div class="row justify-content-center">
+     <div class="col-12 col-lg-8 pr-5">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="img/carroulsel/buzos.jpg" class="d-block w-100 mh-25" alt="buzos nike">
           </div>
-        </article>
-        <!-- termina box 1 -->
-
-        <!-- empieza box 2 -->
-        <article class="col-sm-12 col-md-3 col-lg-6 text-center">
-          <h2 class="text-center py-3">remera good energy club</h2>
-          <img src="img/remera good energy club.png" alt="remera good energy club">
-          <a href="" class="btn btn-dark mt-3 mx-auto">Comprar</a> 
-        </article>
-        <!-- termina box 2 -->
-
-        <!-- empieza box 3-->
-        <article class="col-sm-12 col-md-3 col-lg-6 text-center">
-          <h2 class="text-center">Remera champion</h2>
-          <img src="img/remera champion.png" alt="remera champion">
-          <a href="" class="btn btn-dark btn-3 mx-auto mt-3">Comprar</a> 
-        </article>
-        <!-- termina box 3 -->
-
-        <!-- empieza box 4 -->
-        <article class="col-sm-12 col-md-3 col-lg-6">
-          <h2 class="text-center py-3">short addidas</h2>
-          <img src="img/short addidas.png" alt="short addidas">
-          <a href="" class="btn btn-dark mt-3 mx-auto">Comprar</a> 
-        </article>
-        <!-- termina box 4 -->
-    </div>
-  <!-- termina productos -->
-</main>
-  <!-- empieza footer-->
-<footer class="bg-dark mt-3" id="footer">
-  <h3 class="mt-3">¡SEGUINOS EN NUESTRAS REDES!</h3>
-      <section class="d-flex">
-        <div>
-          <img src="img/logo instagram.jpg" alt="logo instagram"height="25" width="40"/> 
-          <a href="https://www.instagram.com/maschio_moda/ "target="_blank"></a>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/carroulsel/remeras mujer.jpg" class="d-block w-100 mh-25" alt="remeras mujer">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/carroulsel/shorts mujer.jpg" class="d-block w-100 mh-25" alt="shorts champion">
+          </div>
         </div>
+      </div>
+     </div>
+   </div>
+ </div>
+<div class="container-fluid w-100">
+    <div class="row w-100 justify-content-center mt-2 mb-2" id="background-color">
+      <div class="col-auto">
+        <h1 class="text-center">productos destacados</h1>
+      </div>
+    </div>
+
+    <div class="row w-100 justify-content-center" id="2">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+        <div class="card" >
+          <img src="img/index/vestido de fiesta.jpg" class="card-img-top" alt="vestido negro">
+        <div class="card-body">
+    <h2 class="card-title">vestido brightness</h2>
+    <a href="error 404.html" class="btn btn-dark">COMPRAR</a>
+  </div>
+</div>
+</div>
+  <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+    <div class="card">
+        <img src="img/index/remera good energy club.jpg" class="card-img-top" alt="remera">
+      <div class="card-body">
+      <h3 class="card-title" id="remera good energy club">remera good energy club</h3>
+    <a href="error 404.html" class="btn btn-dark">COMPRAR</a>
+  </div>
+  </div>
+      </div>
+<div class="col-12 col-sm-8 col-md-6 col-lg-3">
+  <div class="card">
+    <img src="img/index/remera champion.png" class="card-img-top" alt="remera">
+  <div class="card-body">
+    <h4 class="card-title">Remera champion</h4>
+    <a href="error 404.html" class="btn btn-dark">COMPRAR</a>
+  </div>
+</div>      
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-3">
+<div class="card" >
+  <img src="img/index/short addidas.jpg" class="card-img-top" alt="short-addidad">
+  <div class="card-body">
+    <h5 class="card-title">Short addidas</h5>
+    <a href="error 404.html" class="center btn btn-dark">COMPRAR</a>
+  </div>
+</div>        
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-dark mt-3 text-center" id="footer">
+  <h6 class="mt-3">¡SEGUINOS EN NUESTRAS REDES!</h6>
+    <section>
         <div>
-          <img src="img/logo facebook.png" alt="logo facebook"height="25" width="25"/>
+          <img src="img/logo instagram.png" alt="logo instagram" height="30" width="40"/> 
+          <a href="https://www.instagram.com/maschio_moda/"></a>
+          <img src="img/logo facebook.png" alt="logo facebook"height="30" width="40"/>
           <a href="https://www.facebook.com/maschio_moda/"target="_blank"/a>
         </div>
-      </section>
-      <section id="footer-nav" class="">
-        <ul>
-          <li>
-            <a href="tienda online.html">TIENDA ONLINE</a>
-          </li>
-          <li>
-            <a href="ENVIOS Y METODOS DE PAGO.html">ENVIOS Y METODOS DE PAGO</a>
-          </li>
-
-          <li>
-            <a href="donde estamos.html">¿DONDE ESTAMOS?</a>
-          </li>
-
-          <li>
-            <a href="COMPRAR.html">COMPRAR</a>
-          </li>
-        </ul> 
-      </section>
-
+    </section>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg text-center" id="footer-nav">
+  <div class="container-fluid text-center">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="comprar.html">COMPRAR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tienda online.html">TIENDA ONLINE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="donde estamos.html">DONDE ESTAMOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="envios y metodos de pago.html">ENVIOS Y METODOS DE PAGO</a>
+        </li>
+      </ul>
+  </div>
+</nav>
 </footer>
-  <!-- termina footer -->
-  </body>
+</body>
 </html>

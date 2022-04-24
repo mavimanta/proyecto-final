@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&family=Oswald:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:wght@200;700&display=swap");
 * {
   padding: 0;
   margin: 0; }
 
+.navbar {
+  background-color: black; }
+
 #navbarSupportedContent {
   font-family: "Oswald", sans-serif;
-  background-color: black;
+  color: white;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  background-color: black; }
   #navbarSupportedContent ul li a {
     color: white; }
     #navbarSupportedContent ul li a:hover {
@@ -15,30 +20,59 @@
   #navbarSupportedContent .dropdown-item {
     color: black; }
 
-#carouselExampleDark {
-  width: 100%;
-  margin-right: 10px; }
-  #carouselExampleDark img {
-    height: 500px; }
+#background-color {
+  background-color: black; }
 
-.article img {
-  text-align: center;
-  height: h-500; }
+.card-title {
+  font-family: "Oswald", sans-serif; }
 
-.btn, .btn-3 {
-  margin-top: 3px;
-  display: flex;
-  width: 25%; }
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 2em; }
+
+#donde-estamos {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: black; }
+
+#error404 {
+  font-size: 4em;
+  font-family: "Montserrat", sans-serif; }
+
+#envios {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: black; }
+
+#metodos-de-pago {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: black; }
+
+#datos-de-contacto {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 2em; }
+
+#tiendaOnline {
+  font-size: 1em; }
+
+#productos img:hover {
+  transform: scale 1.5; }
 
 #footer {
   color: white; }
-  #footer img {
-    background-color: black; }
 
-#footer-nav ul li {
-  list-style: none; }
-
-#footer-nav a {
-  list-style: none;
-  text-decoration: none;
-  color: white; }
+#footer-nav {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: black; }
+  #footer-nav ul li a {
+    color: white; }
+    #footer-nav ul li a:hover {
+      color: #cd7f7f; }

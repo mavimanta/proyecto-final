@@ -1,11 +1,8 @@
-//definir variables
 
-//colores 
 $mainColor:rgb(0,0,0);
 $secondaryColor:rgb(255,255,255);
 $keyColor:rgb(205,127,127); 
 
-//sizing
 $w-100:100%;
 $w-50:50%;
 $w-25:25%;
@@ -18,14 +15,4 @@ $m-3:3px;
 	color:$color;
 	font:$font; 
 	background-color:$background-color;
-}
-
-//extends
-//maps
-$paleta: (
-	'uno':rgb(0,0,0),
-	'dos':rgb(255,255,255),
-	'tres':rgb(205,127,127),);
-#tiendaOnline{
-	background-color:map-get($map,$paleta,$key:'uno');
 }

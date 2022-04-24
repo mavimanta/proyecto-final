@@ -1,24 +1,42 @@
-#carouselExampleDark{
-	width:$w-100;
-	margin-right:$m-10;
-	img{
-		height:$h-500;
-	}
-}
-.article{
-	img {
-		text-align: center;
-		height:h-500;
-	}
-}
-.btn{
-	margin-top:$m-3;
-	display: flex;
-	width:$w-25;
+#background-color{
+	background-color: $mainColor;
 }
 
-.btn-3{
-	@extend .btn;
+@mixin font{
+	font-family: $fontMain;
+}
+.card-title{
+	@include font;
+}
+@mixin background{
+	@include font;
+	color: $secondaryColor;
+	background-color: $mainColor;
+}
+h1{
+	@include background;
+	font-size: $textMd; 
 }
 
+#donde-estamos{
+	@include background;
+}
+
+#error404{
+	font-size:$textXl;
+	font-family:$secondaryFont;
+}
+#envios{
+	@include background;
+}
+#metodos-de-pago{
+	@include background;
+}
+#datos-de-contacto{
+	@include background;
+	font-size: $textMd;
+}
+#tiendaOnline{
+	font-size: $textSm;
+}
 

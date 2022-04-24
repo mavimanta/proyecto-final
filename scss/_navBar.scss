@@ -1,12 +1,16 @@
+.navbar{
+	background-color:$mainColor;
+}
 #navbarSupportedContent{
 	font-family:$fontMain;
-	background-color:$mainColor;
+	color:$secondaryColor;
 	width: $w-100;
 	text-align: center;
+	background-color:$mainColor;
 	ul li a{
 		color:$secondaryColor;
 		&:hover{
-					color:$keyColor;
+				color:$keyColor;
 				}
 	}
 	.dropdown-item{
